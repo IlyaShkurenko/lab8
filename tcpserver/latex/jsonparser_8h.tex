@@ -1,0 +1,64 @@
+\hypertarget{jsonparser_8h}{}\section{include/jsonparser.h File Reference}
+\label{jsonparser_8h}\index{include/jsonparser.\+h@{include/jsonparser.\+h}}
+
+
+json parsing  
+
+
+{\ttfamily \#include $<$list.\+h$>$}\newline
+{\ttfamily \#include $<$convert.\+h$>$}\newline
+{\ttfamily \#include $<$jansson.\+h$>$}\newline
+{\ttfamily \#include \char`\"{}result.\+h\char`\"{}}\newline
+\subsection*{Enumerations}
+\begin{DoxyCompactItemize}
+\item 
+\mbox{\Hypertarget{jsonparser_8h_a06fc87d81c62e9abb8790b6e5713c55b}\label{jsonparser_8h_a06fc87d81c62e9abb8790b6e5713c55b}} 
+enum \{ {\bfseries ID} = 1, 
+{\bfseries I\+N\+D\+EX} = 2, 
+{\bfseries N\+A\+ME} = 3, 
+{\bfseries C\+O\+U\+N\+T\+RY} = 4
+ \}
+\end{DoxyCompactItemize}
+\subsection*{Functions}
+\begin{DoxyCompactItemize}
+\item 
+\mbox{\Hypertarget{jsonparser_8h_ab69ca96eda14f0ecc7e10cb616ae5791}\label{jsonparser_8h_ab69ca96eda14f0ecc7e10cb616ae5791}} 
+void \hyperlink{jsonparser_8h_ab69ca96eda14f0ecc7e10cb616ae5791}{Json\+Info} (char $\ast$str)
+\begin{DoxyCompactList}\small\item\em writes in string information about server in json format \end{DoxyCompactList}\item 
+\mbox{\Hypertarget{jsonparser_8h_acf8ed8da6d16b8be4e1ba94652992aa7}\label{jsonparser_8h_acf8ed8da6d16b8be4e1ba94652992aa7}} 
+void \hyperlink{jsonparser_8h_acf8ed8da6d16b8be4e1ba94652992aa7}{Json\+List} (\hyperlink{struct_list}{List} $\ast$list, char $\ast$str)
+\begin{DoxyCompactList}\small\item\em write in json data from list \end{DoxyCompactList}\item 
+\mbox{\Hypertarget{jsonparser_8h_ad4f981fb2a1be8c4ce27357be1d40ddf}\label{jsonparser_8h_ad4f981fb2a1be8c4ce27357be1d40ddf}} 
+void \hyperlink{jsonparser_8h_ad4f981fb2a1be8c4ce27357be1d40ddf}{Json\+List\+Under\+List} (\hyperlink{struct_list}{List} $\ast$list, char $\ast$str, \hyperlink{struct_result}{Result} $\ast$res)
+\begin{DoxyCompactList}\small\item\em creating sub-\/listings and ad it to json \end{DoxyCompactList}\item 
+\mbox{\Hypertarget{jsonparser_8h_a6f2ac24c4f6915b22826c65b23753043}\label{jsonparser_8h_a6f2ac24c4f6915b22826c65b23753043}} 
+void \hyperlink{jsonparser_8h_a6f2ac24c4f6915b22826c65b23753043}{json\+With\+File\+Info} (char $\ast$json\+String, char $\ast$str)
+\begin{DoxyCompactList}\small\item\em aditing to json information about text file \end{DoxyCompactList}\item 
+\mbox{\Hypertarget{jsonparser_8h_a3891cecc5f86ae2558d196ab96f21a14}\label{jsonparser_8h_a3891cecc5f86ae2558d196ab96f21a14}} 
+void \hyperlink{jsonparser_8h_a3891cecc5f86ae2558d196ab96f21a14}{json\+With\+Arrayof\+Digits} (char $\ast$str, \hyperlink{struct_list}{List} $\ast$list)
+\begin{DoxyCompactList}\small\item\em adding to json array of digits from text file \end{DoxyCompactList}\item 
+void \hyperlink{jsonparser_8h_aacdc114d60245dd12c0f708cf980572f}{json\+Save\+To\+String} (\hyperlink{struct_list}{List} $\ast$list, char $\ast$text)
+\begin{DoxyCompactList}\small\item\em creating json document \end{DoxyCompactList}\end{DoxyCompactItemize}
+
+
+\subsection{Detailed Description}
+json parsing 
+
+
+
+\subsection{Function Documentation}
+\mbox{\Hypertarget{jsonparser_8h_aacdc114d60245dd12c0f708cf980572f}\label{jsonparser_8h_aacdc114d60245dd12c0f708cf980572f}} 
+\index{jsonparser.\+h@{jsonparser.\+h}!json\+Save\+To\+String@{json\+Save\+To\+String}}
+\index{json\+Save\+To\+String@{json\+Save\+To\+String}!jsonparser.\+h@{jsonparser.\+h}}
+\subsubsection{\texorpdfstring{json\+Save\+To\+String()}{jsonSaveToString()}}
+{\footnotesize\ttfamily void json\+Save\+To\+String (\begin{DoxyParamCaption}\item[{\hyperlink{struct_list}{List} $\ast$}]{list,  }\item[{char $\ast$}]{text }\end{DoxyParamCaption})}
+
+
+
+creating json document 
+
+
+\begin{DoxyParams}{Parameters}
+{\em list} & -\/ list that converts to json string \\
+\hline
+\end{DoxyParams}

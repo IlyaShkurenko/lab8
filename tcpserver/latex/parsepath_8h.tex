@@ -1,0 +1,107 @@
+\hypertarget{parsepath_8h}{}\section{include/parsepath.h File Reference}
+\label{parsepath_8h}\index{include/parsepath.\+h@{include/parsepath.\+h}}
+
+
+functions to parse url  
+
+
+{\ttfamily \#include $<$stdbool.\+h$>$}\newline
+{\ttfamily \#include \char`\"{}result.\+h\char`\"{}}\newline
+\subsection*{Enumerations}
+\begin{DoxyCompactItemize}
+\item 
+\mbox{\Hypertarget{parsepath_8h_adf764cbdea00d65edcd07bb9953ad2b7}\label{parsepath_8h_adf764cbdea00d65edcd07bb9953ad2b7}} 
+enum \{ \newline
+{\bfseries N\+O\+T\+F\+O\+U\+ND} = 0, 
+{\bfseries S\+E\+N\+D\+S\+E\+R\+V\+E\+R\+I\+N\+F\+O\+RM} = 1, 
+{\bfseries S\+E\+N\+D\+F\+A\+V\+O\+U\+R\+I\+T\+ES} = 2, 
+{\bfseries S\+E\+N\+D\+F\+A\+V\+K\+E\+V\+AL} = 3, 
+\newline
+{\bfseries R\+E\+A\+D\+F\+I\+LE} = 4, 
+{\bfseries S\+E\+N\+D\+F\+I\+L\+E\+D\+A\+TA} = 5, 
+{\bfseries S\+E\+N\+D\+F\+A\+V\+F\+O\+R\+ID} = 6
+ \}
+\end{DoxyCompactItemize}
+\subsection*{Functions}
+\begin{DoxyCompactItemize}
+\item 
+\mbox{\Hypertarget{parsepath_8h_a68850d12e36eb0787532ffb00342e591}\label{parsepath_8h_a68850d12e36eb0787532ffb00342e591}} 
+int {\bfseries return\+Function\+From\+Path} (char $\ast$path, \hyperlink{struct_result}{Result} $\ast$res)
+\item 
+bool \hyperlink{parsepath_8h_a915af970ec6bec1c16c287e201464e6e}{Equals\+Of\+Str} (char $\ast$str1, char $\ast$str2)
+\item 
+bool \hyperlink{parsepath_8h_ac78d5a45183bb694ddaaaeb52a3ef10e}{Equals\+Of\+Int} (char $\ast$int1, int int2)
+\item 
+\mbox{\Hypertarget{parsepath_8h_ae4dcd794835c52fb12aaa01351dcc65b}\label{parsepath_8h_ae4dcd794835c52fb12aaa01351dcc65b}} 
+bool \hyperlink{parsepath_8h_ae4dcd794835c52fb12aaa01351dcc65b}{check} (char $\ast$path, \hyperlink{struct_result}{Result} $\ast$res)
+\begin{DoxyCompactList}\small\item\em check path on valid \end{DoxyCompactList}\item 
+bool \hyperlink{parsepath_8h_ac62934c36774cec7e976275a31e873d5}{check\+Fav\+On\+Begin} (char $\ast$path, int index)
+\item 
+bool \hyperlink{parsepath_8h_a8f55599e2e89474aaf3cb6946a2f951f}{found\+Key} (char $\ast$path, int before, int after, \hyperlink{struct_result}{Result} $\ast$res)
+\item 
+bool \hyperlink{parsepath_8h_adb3f83a553c897ddb4685e7de6feb8f5}{check\+Val\+On\+Int} (char $\ast$str)
+\item 
+bool \hyperlink{parsepath_8h_aa6b66dd529ccd304034f9c9416d04b3c}{check\+Val\+On\+Is\+Alpha} (char $\ast$str)
+\end{DoxyCompactItemize}
+
+
+\subsection{Detailed Description}
+functions to parse url 
+
+
+
+\subsection{Function Documentation}
+\mbox{\Hypertarget{parsepath_8h_ac62934c36774cec7e976275a31e873d5}\label{parsepath_8h_ac62934c36774cec7e976275a31e873d5}} 
+\index{parsepath.\+h@{parsepath.\+h}!check\+Fav\+On\+Begin@{check\+Fav\+On\+Begin}}
+\index{check\+Fav\+On\+Begin@{check\+Fav\+On\+Begin}!parsepath.\+h@{parsepath.\+h}}
+\subsubsection{\texorpdfstring{check\+Fav\+On\+Begin()}{checkFavOnBegin()}}
+{\footnotesize\ttfamily bool check\+Fav\+On\+Begin (\begin{DoxyParamCaption}\item[{char $\ast$}]{path,  }\item[{int}]{index }\end{DoxyParamCaption})}
+
+\begin{DoxyReturn}{Returns}
+true if first parth of url is /favorites 
+\end{DoxyReturn}
+\mbox{\Hypertarget{parsepath_8h_adb3f83a553c897ddb4685e7de6feb8f5}\label{parsepath_8h_adb3f83a553c897ddb4685e7de6feb8f5}} 
+\index{parsepath.\+h@{parsepath.\+h}!check\+Val\+On\+Int@{check\+Val\+On\+Int}}
+\index{check\+Val\+On\+Int@{check\+Val\+On\+Int}!parsepath.\+h@{parsepath.\+h}}
+\subsubsection{\texorpdfstring{check\+Val\+On\+Int()}{checkValOnInt()}}
+{\footnotesize\ttfamily bool check\+Val\+On\+Int (\begin{DoxyParamCaption}\item[{char $\ast$}]{str }\end{DoxyParamCaption})}
+
+\begin{DoxyReturn}{Returns}
+true if string doesn\textquotesingle{}t have any symbol 
+\end{DoxyReturn}
+\mbox{\Hypertarget{parsepath_8h_aa6b66dd529ccd304034f9c9416d04b3c}\label{parsepath_8h_aa6b66dd529ccd304034f9c9416d04b3c}} 
+\index{parsepath.\+h@{parsepath.\+h}!check\+Val\+On\+Is\+Alpha@{check\+Val\+On\+Is\+Alpha}}
+\index{check\+Val\+On\+Is\+Alpha@{check\+Val\+On\+Is\+Alpha}!parsepath.\+h@{parsepath.\+h}}
+\subsubsection{\texorpdfstring{check\+Val\+On\+Is\+Alpha()}{checkValOnIsAlpha()}}
+{\footnotesize\ttfamily bool check\+Val\+On\+Is\+Alpha (\begin{DoxyParamCaption}\item[{char $\ast$}]{str }\end{DoxyParamCaption})}
+
+\begin{DoxyReturn}{Returns}
+true if string doesn\textquotesingle{}t have any digit 
+\end{DoxyReturn}
+\mbox{\Hypertarget{parsepath_8h_ac78d5a45183bb694ddaaaeb52a3ef10e}\label{parsepath_8h_ac78d5a45183bb694ddaaaeb52a3ef10e}} 
+\index{parsepath.\+h@{parsepath.\+h}!Equals\+Of\+Int@{Equals\+Of\+Int}}
+\index{Equals\+Of\+Int@{Equals\+Of\+Int}!parsepath.\+h@{parsepath.\+h}}
+\subsubsection{\texorpdfstring{Equals\+Of\+Int()}{EqualsOfInt()}}
+{\footnotesize\ttfamily bool Equals\+Of\+Int (\begin{DoxyParamCaption}\item[{char $\ast$}]{int1,  }\item[{int}]{int2 }\end{DoxyParamCaption})}
+
+\begin{DoxyReturn}{Returns}
+true if ints are equals 
+\end{DoxyReturn}
+\mbox{\Hypertarget{parsepath_8h_a915af970ec6bec1c16c287e201464e6e}\label{parsepath_8h_a915af970ec6bec1c16c287e201464e6e}} 
+\index{parsepath.\+h@{parsepath.\+h}!Equals\+Of\+Str@{Equals\+Of\+Str}}
+\index{Equals\+Of\+Str@{Equals\+Of\+Str}!parsepath.\+h@{parsepath.\+h}}
+\subsubsection{\texorpdfstring{Equals\+Of\+Str()}{EqualsOfStr()}}
+{\footnotesize\ttfamily bool Equals\+Of\+Str (\begin{DoxyParamCaption}\item[{char $\ast$}]{str1,  }\item[{char $\ast$}]{str2 }\end{DoxyParamCaption})}
+
+\begin{DoxyReturn}{Returns}
+true if strings are equals 
+\end{DoxyReturn}
+\mbox{\Hypertarget{parsepath_8h_a8f55599e2e89474aaf3cb6946a2f951f}\label{parsepath_8h_a8f55599e2e89474aaf3cb6946a2f951f}} 
+\index{parsepath.\+h@{parsepath.\+h}!found\+Key@{found\+Key}}
+\index{found\+Key@{found\+Key}!parsepath.\+h@{parsepath.\+h}}
+\subsubsection{\texorpdfstring{found\+Key()}{foundKey()}}
+{\footnotesize\ttfamily bool found\+Key (\begin{DoxyParamCaption}\item[{char $\ast$}]{path,  }\item[{int}]{before,  }\item[{int}]{after,  }\item[{\hyperlink{struct_result}{Result} $\ast$}]{res }\end{DoxyParamCaption})}
+
+\begin{DoxyReturn}{Returns}
+true if key was find 
+\end{DoxyReturn}

@@ -1,0 +1,159 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6"/>
+	<Project>
+		<Option title="tcp"/>
+		<Option makefile_is_custom="1"/>
+		<Option compiler="gcc"/>
+		<Option virtualFolders="CMake Files\;"/>
+		<Build>
+			<Target title="all">
+				<Option working_dir="/Users/illiashkurenko/progbase2/tasks/tcp_client/tcpserver/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/Users/illiashkurenko/progbase2/tasks/tcp_client/tcpserver/cmake-build-debug/Makefile&quot;  VERBOSE=1 all"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/Users/illiashkurenko/progbase2/tasks/tcp_client/tcpserver/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/Users/illiashkurenko/progbase2/tasks/tcp_client/tcpserver/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/illiashkurenko/progbase2/tasks/tcp_client/tcpserver/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="edit_cache">
+				<Option working_dir="/Users/illiashkurenko/progbase2/tasks/tcp_client/tcpserver/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/Users/illiashkurenko/progbase2/tasks/tcp_client/tcpserver/cmake-build-debug/Makefile&quot;  VERBOSE=1 edit_cache"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/Users/illiashkurenko/progbase2/tasks/tcp_client/tcpserver/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/Users/illiashkurenko/progbase2/tasks/tcp_client/tcpserver/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/illiashkurenko/progbase2/tasks/tcp_client/tcpserver/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="rebuild_cache">
+				<Option working_dir="/Users/illiashkurenko/progbase2/tasks/tcp_client/tcpserver/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/Users/illiashkurenko/progbase2/tasks/tcp_client/tcpserver/cmake-build-debug/Makefile&quot;  VERBOSE=1 rebuild_cache"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/Users/illiashkurenko/progbase2/tasks/tcp_client/tcpserver/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/Users/illiashkurenko/progbase2/tasks/tcp_client/tcpserver/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/illiashkurenko/progbase2/tasks/tcp_client/tcpserver/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="tcp">
+				<Option output="/Users/illiashkurenko/progbase2/tasks/tcp_client/tcpserver/cmake-build-debug/tcp" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/illiashkurenko/progbase2/tasks/tcp_client/tcpserver/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/Users/illiashkurenko/progbase2/tasks/tcp_client/tcpserver/include"/>
+					<Add directory="/usr/local/opt/jansson/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/../lib/clang/8.1.0/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include"/>
+					<Add directory="/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/../include/c++/v1"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/Users/illiashkurenko/progbase2/tasks/tcp_client/tcpserver/cmake-build-debug/Makefile&quot;  VERBOSE=1 tcp"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/Users/illiashkurenko/progbase2/tasks/tcp_client/tcpserver/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/Users/illiashkurenko/progbase2/tasks/tcp_client/tcpserver/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/illiashkurenko/progbase2/tasks/tcp_client/tcpserver/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="tcp/fast">
+				<Option output="/Users/illiashkurenko/progbase2/tasks/tcp_client/tcpserver/cmake-build-debug/tcp" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/illiashkurenko/progbase2/tasks/tcp_client/tcpserver/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/Users/illiashkurenko/progbase2/tasks/tcp_client/tcpserver/include"/>
+					<Add directory="/usr/local/opt/jansson/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/../lib/clang/8.1.0/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include"/>
+					<Add directory="/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/../include/c++/v1"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/Users/illiashkurenko/progbase2/tasks/tcp_client/tcpserver/cmake-build-debug/Makefile&quot;  VERBOSE=1 tcp/fast"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/Users/illiashkurenko/progbase2/tasks/tcp_client/tcpserver/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/Users/illiashkurenko/progbase2/tasks/tcp_client/tcpserver/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/illiashkurenko/progbase2/tasks/tcp_client/tcpserver/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+		</Build>
+		<Unit filename="/Users/illiashkurenko/progbase2/tasks/tcp_client/tcpserver/handlers.c">
+			<Option target="tcp"/>
+		</Unit>
+		<Unit filename="/Users/illiashkurenko/progbase2/tasks/tcp_client/tcpserver/include/choosefunction.h">
+			<Option target="tcp"/>
+		</Unit>
+		<Unit filename="/Users/illiashkurenko/progbase2/tasks/tcp_client/tcpserver/include/fileparser.h">
+			<Option target="tcp"/>
+		</Unit>
+		<Unit filename="/Users/illiashkurenko/progbase2/tasks/tcp_client/tcpserver/include/findelements.h">
+			<Option target="tcp"/>
+		</Unit>
+		<Unit filename="/Users/illiashkurenko/progbase2/tasks/tcp_client/tcpserver/include/jsonparser.h">
+			<Option target="tcp"/>
+		</Unit>
+		<Unit filename="/Users/illiashkurenko/progbase2/tasks/tcp_client/tcpserver/include/parsepath.h">
+			<Option target="tcp"/>
+		</Unit>
+		<Unit filename="/Users/illiashkurenko/progbase2/tasks/tcp_client/tcpserver/include/request.h">
+			<Option target="tcp"/>
+		</Unit>
+		<Unit filename="/Users/illiashkurenko/progbase2/tasks/tcp_client/tcpserver/include/result.h">
+			<Option target="tcp"/>
+		</Unit>
+		<Unit filename="/Users/illiashkurenko/progbase2/tasks/tcp_client/tcpserver/include/workwithstrings.h">
+			<Option target="tcp"/>
+		</Unit>
+		<Unit filename="/Users/illiashkurenko/progbase2/tasks/tcp_client/tcpserver/main.c">
+			<Option target="tcp"/>
+		</Unit>
+		<Unit filename="/Users/illiashkurenko/progbase2/tasks/tcp_client/tcpserver/progbase/list.c">
+			<Option target="tcp"/>
+		</Unit>
+		<Unit filename="/Users/illiashkurenko/progbase2/tasks/tcp_client/tcpserver/progbase/list.h">
+			<Option target="tcp"/>
+		</Unit>
+		<Unit filename="/Users/illiashkurenko/progbase2/tasks/tcp_client/tcpserver/progbase/net.c">
+			<Option target="tcp"/>
+		</Unit>
+		<Unit filename="/Users/illiashkurenko/progbase2/tasks/tcp_client/tcpserver/progbase/net.h">
+			<Option target="tcp"/>
+		</Unit>
+		<Unit filename="/Users/illiashkurenko/progbase2/tasks/tcp_client/tcpserver/src/choosefunction.c">
+			<Option target="tcp"/>
+		</Unit>
+		<Unit filename="/Users/illiashkurenko/progbase2/tasks/tcp_client/tcpserver/src/fileparser.c">
+			<Option target="tcp"/>
+		</Unit>
+		<Unit filename="/Users/illiashkurenko/progbase2/tasks/tcp_client/tcpserver/src/findelements.c">
+			<Option target="tcp"/>
+		</Unit>
+		<Unit filename="/Users/illiashkurenko/progbase2/tasks/tcp_client/tcpserver/src/jsonparser.c">
+			<Option target="tcp"/>
+		</Unit>
+		<Unit filename="/Users/illiashkurenko/progbase2/tasks/tcp_client/tcpserver/src/parsepath.c">
+			<Option target="tcp"/>
+		</Unit>
+		<Unit filename="/Users/illiashkurenko/progbase2/tasks/tcp_client/tcpserver/src/request.c">
+			<Option target="tcp"/>
+		</Unit>
+		<Unit filename="/Users/illiashkurenko/progbase2/tasks/tcp_client/tcpserver/src/result.c">
+			<Option target="tcp"/>
+		</Unit>
+		<Unit filename="/Users/illiashkurenko/progbase2/tasks/tcp_client/tcpserver/src/workwithstrings.c">
+			<Option target="tcp"/>
+		</Unit>
+		<Unit filename="/Users/illiashkurenko/progbase2/tasks/tcp_client/tcpserver/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\"/>
+		</Unit>
+	</Project>
+</CodeBlocks_project_file>
