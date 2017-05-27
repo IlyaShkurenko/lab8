@@ -7,7 +7,6 @@
 #ifndef TCP_JSONPARSER_H
 #define TCP_JSONPARSER_H
 
-#include <list.h>
 #include <convert.h>
 #include <jansson.h>
 #include "result.h"
