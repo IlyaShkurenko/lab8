@@ -13,3 +13,27 @@
 /favorites/{id} - JSON-об'єкт зі списку /favorites за ідентифікатором з числовим значенням {id}. Якщо об'єкта із таким значенням id не було знайдено, повертати у відповідь HTTP статус 404 Not Found.
 /file - зчитати вміст файлу data.txt, який попередньо розмістити у директорії data/ проекту. Відправити клієнту JSON-об'єкт, що містить у собі інформацію про назву, розмір (у байтах) і текстовий вміст файлу.
 /file/data - у відповідь клієнту відправити JSON-список всіх цифр у файлі (файл data.txt).
+## Headers:
+```javascript
+choosefunction.h
+```
+### module to choose needed function from correct path
+```javascript
+fileparser.h
+```
+### module that parse data from file
+
+```javascript
+jsonparser.h
+```
+### module that parse data to json string
+
+```javascript
+findelement.h
+```
+### module that find element in list from url
+
+```javascript
+workwirhstrings.h
+```
+### module contains functions to work with strings
