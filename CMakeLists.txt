@@ -13,3 +13,5 @@ TARGET_LINK_LIBRARIES(tcp /usr/local/opt/jansson/lib/libjansson.dylib)
 include_directories(/usr/local/include)
 
 TARGET_LINK_LIBRARIES(tcp /usr/local/lib/liblablibrary.a)
+set_property(TARGET ${CMAKE_PROJECT_NAME} PROPERTY C_STANDARD 99)
+SET(CMAKE_C_FLAGS "-std=c99 -Wall")
