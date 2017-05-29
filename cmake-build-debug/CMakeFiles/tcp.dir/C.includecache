@@ -11,8 +11,8 @@ result.h
 -
 
 ../include/fav.h
-../progbase/list.h
-../progbase/list.h
+list.h
+../include/list.h
 
 ../include/fileparser.h
 
@@ -29,8 +29,8 @@ jansson.h
 -
 result.h
 ../include/result.h
-../progbase/list.h
-../progbase/list.h
+list.h
+../include/list.h
 
 ../include/parsepath.h
 stdbool.h
@@ -46,6 +46,12 @@ result.h
 stdlib.h
 -
 stdbool.h
+-
+
+../progbase/net.h
+stdbool.h
+-
+netinet/in.h
 -
 
 /Users/illiashkurenko/progbase2/tasks/tcp_client/tcpserver/main.c
@@ -75,8 +81,8 @@ workwithstrings.h
 /Users/illiashkurenko/progbase2/tasks/tcp_client/tcpserver/workwithstrings.h
 result.h
 /Users/illiashkurenko/progbase2/tasks/tcp_client/tcpserver/result.h
-progbase/net.h
-/Users/illiashkurenko/progbase2/tasks/tcp_client/tcpserver/progbase/net.h
+net.h
+/Users/illiashkurenko/progbase2/tasks/tcp_client/tcpserver/net.h
 choosefunction.h
 -
 fav.h
@@ -221,8 +227,6 @@ parsepath.h
 /Users/illiashkurenko/progbase2/tasks/tcp_client/tcpserver/src/parsepath.h
 jsonparser.h
 /Users/illiashkurenko/progbase2/tasks/tcp_client/tcpserver/src/jsonparser.h
-
-/usr/local/include/jsonstorage.h
 
 /usr/local/opt/jansson/include/jansson.h
 stdio.h

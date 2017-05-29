@@ -11,7 +11,7 @@
 #include <choosefunction.h>
 #include "workwithstrings.h"
 #include "result.h"
-#include "progbase/net.h"
+#include "net.h"
 #include <choosefunction.h>
 #include <fav.h>
 

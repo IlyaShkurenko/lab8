@@ -10,7 +10,7 @@
 
 #include <jansson.h>
 #include "result.h"
-#include "../progbase/list.h""
+#include "list.h"
 
 enum {
     ID = 1, INDEX = 2, NAME = 3, COUNTRY = 4

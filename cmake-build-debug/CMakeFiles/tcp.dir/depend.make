@@ -9,8 +9,8 @@ CMakeFiles/tcp.dir/main.c.o: ../include/parsepath.h
 CMakeFiles/tcp.dir/main.c.o: ../include/result.h
 CMakeFiles/tcp.dir/main.c.o: ../include/workwithstrings.h
 CMakeFiles/tcp.dir/main.c.o: ../progbase/list.h
-CMakeFiles/tcp.dir/main.c.o: ../main.c
 CMakeFiles/tcp.dir/main.c.o: ../progbase/net.h
+CMakeFiles/tcp.dir/main.c.o: ../main.c
 CMakeFiles/tcp.dir/main.c.o: /usr/local/opt/jansson/include/jansson.h
 CMakeFiles/tcp.dir/main.c.o: /usr/local/opt/jansson/include/jansson_config.h
 
@@ -62,7 +62,6 @@ CMakeFiles/tcp.dir/src/jsonparser.c.o: ../include/result.h
 CMakeFiles/tcp.dir/src/jsonparser.c.o: ../include/workwithstrings.h
 CMakeFiles/tcp.dir/src/jsonparser.c.o: ../progbase/list.h
 CMakeFiles/tcp.dir/src/jsonparser.c.o: ../src/jsonparser.c
-CMakeFiles/tcp.dir/src/jsonparser.c.o: /usr/local/include/jsonstorage.h
 CMakeFiles/tcp.dir/src/jsonparser.c.o: /usr/local/opt/jansson/include/jansson.h
 CMakeFiles/tcp.dir/src/jsonparser.c.o: /usr/local/opt/jansson/include/jansson_config.h
 

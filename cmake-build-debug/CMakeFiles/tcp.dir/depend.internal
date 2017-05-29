@@ -10,8 +10,8 @@ CMakeFiles/tcp.dir/main.c.o
  ../include/result.h
  ../include/workwithstrings.h
  ../progbase/list.h
+ ../progbase/net.h
  /Users/illiashkurenko/progbase2/tasks/tcp_client/tcpserver/main.c
- /Users/illiashkurenko/progbase2/tasks/tcp_client/tcpserver/progbase/net.h
  /usr/local/opt/jansson/include/jansson.h
  /usr/local/opt/jansson/include/jansson_config.h
 CMakeFiles/tcp.dir/progbase/list.c.o
@@ -63,7 +63,6 @@ CMakeFiles/tcp.dir/src/jsonparser.c.o
  ../include/workwithstrings.h
  ../progbase/list.h
  /Users/illiashkurenko/progbase2/tasks/tcp_client/tcpserver/src/jsonparser.c
- /usr/local/include/jsonstorage.h
  /usr/local/opt/jansson/include/jansson.h
  /usr/local/opt/jansson/include/jansson_config.h
 CMakeFiles/tcp.dir/src/parsepath.c.o

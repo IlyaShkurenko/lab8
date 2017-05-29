@@ -5,7 +5,7 @@
 #ifndef TCP_FAV_H
 #define TCP_FAV_H
 
-#include "../progbase/list.h"
+#include "list.h"
 
 typedef struct Composition Composition;
 enum {

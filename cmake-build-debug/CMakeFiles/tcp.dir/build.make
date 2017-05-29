@@ -351,7 +351,6 @@ tcp: CMakeFiles/tcp.dir/src/choosefunction.c.o
 tcp: CMakeFiles/tcp.dir/src/fav.c.o
 tcp: CMakeFiles/tcp.dir/build.make
 tcp: /usr/local/opt/jansson/lib/libjansson.dylib
-tcp: /usr/local/opt/jansson/lib/libjansson.dylib
 tcp: /usr/local/lib/liblablibrary.a
 tcp: CMakeFiles/tcp.dir/link.txt
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/Users/illiashkurenko/progbase2/tasks/tcp_client/tcpserver/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_12) "Linking C executable tcp"

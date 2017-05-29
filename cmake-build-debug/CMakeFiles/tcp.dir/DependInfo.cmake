@@ -16,13 +16,13 @@ set(CMAKE_DEPENDS_CHECK_C
   "/Users/illiashkurenko/progbase2/tasks/tcp_client/tcpserver/src/result.c" "/Users/illiashkurenko/progbase2/tasks/tcp_client/tcpserver/cmake-build-debug/CMakeFiles/tcp.dir/src/result.c.o"
   "/Users/illiashkurenko/progbase2/tasks/tcp_client/tcpserver/src/workwithstrings.c" "/Users/illiashkurenko/progbase2/tasks/tcp_client/tcpserver/cmake-build-debug/CMakeFiles/tcp.dir/src/workwithstrings.c.o"
   )
-set(CMAKE_C_COMPILER_ID "AppleClang")
+set(CMAKE_C_COMPILER_ID "Clang")
 
 # The include file search paths:
 set(CMAKE_C_TARGET_INCLUDE_PATH
   "../include"
+  "../progbase"
   "/usr/local/opt/jansson/include"
-  "/usr/local/include"
   )
 
 # Targets to which this target links.
