@@ -7,9 +7,10 @@
 #ifndef TCP_JSONPARSER_H
 #define TCP_JSONPARSER_H
 
-#include <list.h>
+
 #include <jansson.h>
 #include "result.h"
+#include "../progbase/list.h""
 
 enum {
     ID = 1, INDEX = 2, NAME = 3, COUNTRY = 4

@@ -6,10 +6,10 @@
 #include "jsonparser.h"
 #include <time.h>
 #include <stdio.h>
-#include <convert.h>
 #include <jsonstorage.h>
 #include "findelements.h"
 #include "workwithstrings.h"
+#include "fav.h"
 
 void JsonInfo(char *str){
     time_t rawtime;
@@ -34,11 +34,13 @@ void JsonList(List * list, char * str){
 void JsonListUnderList(List * list, char * str,Result * res){
     List *list2 = List_new();
     int key = returnKey(res->name);
+    for(int i = 0; i < List_count(list2); i++){
+        List_free(List_get(list,i));
+    }
     if(key != NOTFOUND){}
     for (int i = 0; i < List_count(list); i++) {
         Composition *set = List_get(list, i);
         if(findElement(set,res->value,key)){
-            Composition_print(set,i);
             List_add(list2,set);
         }
     }

@@ -1,11 +1,10 @@
-cmake_minimum_required(VERSION 2.8.7)
-
+cmake_minimum_required(VERSION 3.6)
 project(tcp)
 
 set(CMAKE_C_STANDARD 11)
 include_directories(include)
 file(GLOB LIB_SOURCES "./*.c" "src/*.c")
-set(SOURCE_FILES main.c src/request.c include/request.h progbase/net.h progbase/list.h progbase/list.c progbase/net.c handlers.c src/workwithstrings.c include/workwithstrings.h src/parsepath.c include/parsepath.h src/jsonparser.c include/jsonparser.h src/fileparser.c include/fileparser.h src/findelements.c include/findelements.h include/result.h src/result.c src/choosefunction.c include/choosefunction.h)
+set(SOURCE_FILES main.c progbase/net.h progbase/list.h progbase/list.c progbase/net.c src/workwithstrings.c include/workwithstrings.h src/parsepath.c include/parsepath.h src/jsonparser.c include/jsonparser.h src/fileparser.c include/fileparser.h src/findelements.c include/findelements.h include/result.h src/result.c src/choosefunction.c include/choosefunction.h src/fav.c include/fav.h)
 add_executable(tcp ${SOURCE_FILES})
 include_directories(/usr/local/opt/jansson/include)
 TARGET_LINK_LIBRARIES(tcp /usr/local/opt/jansson/lib/libjansson.dylib)

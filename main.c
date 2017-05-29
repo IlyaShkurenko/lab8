@@ -7,13 +7,13 @@
 #include <locale.h>
 #include <parsepath.h>
 #include <jsonparser.h>
-#include <convert.h>
 #include <fileparser.h>
 #include <choosefunction.h>
 #include "workwithstrings.h"
-#include "request.h"
 #include "result.h"
+#include "progbase/net.h"
 #include <choosefunction.h>
+#include <fav.h>
 
 
 #define BUFFER_LEN 10240
@@ -26,7 +26,7 @@ int main(int argc, char * argv[]) {
     List_add(list, enterCompose("ilya,fpm,10,1,34.5"));
     List_add(list, enterCompose("dima,fpm,23,2,10.5"));
     srand(time(0));
-    const int port = 9998;
+    const int port = 9999;
 
     TcpListener * server = TcpListener_init(&(TcpListener){});
     IpAddress * address = IpAddress_initAny(&(IpAddress){}, port);
@@ -74,13 +74,6 @@ int main(int argc, char * argv[]) {
         choose(list,res,strToCopy,content,json);
         NetMessage_setDataString(message, json);
         free(json);
-       /* Request req = parseRequest(NetMessage_data(message));
-        Response res;
-        Response_init(&res);
-        processRequest(&req, &res, handlers, sizeof(handlers) / sizeof(handlers[0]));
-        Response_toMessage(&res, message);
-        Response_cleanup(&res);*/
-        // send data back
         if(!TcpClient_send(&client, message)) {
             perror("send");
             return 1;

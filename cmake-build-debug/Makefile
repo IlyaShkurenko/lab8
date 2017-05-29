@@ -123,33 +123,6 @@ tcp/fast:
 	$(MAKE) -f CMakeFiles/tcp.dir/build.make CMakeFiles/tcp.dir/build
 .PHONY : tcp/fast
 
-handlers.o: handlers.c.o
-
-.PHONY : handlers.o
-
-# target to build an object file
-handlers.c.o:
-	$(MAKE) -f CMakeFiles/tcp.dir/build.make CMakeFiles/tcp.dir/handlers.c.o
-.PHONY : handlers.c.o
-
-handlers.i: handlers.c.i
-
-.PHONY : handlers.i
-
-# target to preprocess a source file
-handlers.c.i:
-	$(MAKE) -f CMakeFiles/tcp.dir/build.make CMakeFiles/tcp.dir/handlers.c.i
-.PHONY : handlers.c.i
-
-handlers.s: handlers.c.s
-
-.PHONY : handlers.s
-
-# target to generate assembly for a file
-handlers.c.s:
-	$(MAKE) -f CMakeFiles/tcp.dir/build.make CMakeFiles/tcp.dir/handlers.c.s
-.PHONY : handlers.c.s
-
 main.o: main.c.o
 
 .PHONY : main.o
@@ -257,6 +230,33 @@ src/choosefunction.s: src/choosefunction.c.s
 src/choosefunction.c.s:
 	$(MAKE) -f CMakeFiles/tcp.dir/build.make CMakeFiles/tcp.dir/src/choosefunction.c.s
 .PHONY : src/choosefunction.c.s
+
+src/fav.o: src/fav.c.o
+
+.PHONY : src/fav.o
+
+# target to build an object file
+src/fav.c.o:
+	$(MAKE) -f CMakeFiles/tcp.dir/build.make CMakeFiles/tcp.dir/src/fav.c.o
+.PHONY : src/fav.c.o
+
+src/fav.i: src/fav.c.i
+
+.PHONY : src/fav.i
+
+# target to preprocess a source file
+src/fav.c.i:
+	$(MAKE) -f CMakeFiles/tcp.dir/build.make CMakeFiles/tcp.dir/src/fav.c.i
+.PHONY : src/fav.c.i
+
+src/fav.s: src/fav.c.s
+
+.PHONY : src/fav.s
+
+# target to generate assembly for a file
+src/fav.c.s:
+	$(MAKE) -f CMakeFiles/tcp.dir/build.make CMakeFiles/tcp.dir/src/fav.c.s
+.PHONY : src/fav.c.s
 
 src/fileparser.o: src/fileparser.c.o
 
@@ -366,33 +366,6 @@ src/parsepath.c.s:
 	$(MAKE) -f CMakeFiles/tcp.dir/build.make CMakeFiles/tcp.dir/src/parsepath.c.s
 .PHONY : src/parsepath.c.s
 
-src/request.o: src/request.c.o
-
-.PHONY : src/request.o
-
-# target to build an object file
-src/request.c.o:
-	$(MAKE) -f CMakeFiles/tcp.dir/build.make CMakeFiles/tcp.dir/src/request.c.o
-.PHONY : src/request.c.o
-
-src/request.i: src/request.c.i
-
-.PHONY : src/request.i
-
-# target to preprocess a source file
-src/request.c.i:
-	$(MAKE) -f CMakeFiles/tcp.dir/build.make CMakeFiles/tcp.dir/src/request.c.i
-.PHONY : src/request.c.i
-
-src/request.s: src/request.c.s
-
-.PHONY : src/request.s
-
-# target to generate assembly for a file
-src/request.c.s:
-	$(MAKE) -f CMakeFiles/tcp.dir/build.make CMakeFiles/tcp.dir/src/request.c.s
-.PHONY : src/request.c.s
-
 src/result.o: src/result.c.o
 
 .PHONY : src/result.o
@@ -456,9 +429,6 @@ help:
 	@echo "... edit_cache"
 	@echo "... rebuild_cache"
 	@echo "... tcp"
-	@echo "... handlers.o"
-	@echo "... handlers.i"
-	@echo "... handlers.s"
 	@echo "... main.o"
 	@echo "... main.i"
 	@echo "... main.s"
@@ -471,6 +441,9 @@ help:
 	@echo "... src/choosefunction.o"
 	@echo "... src/choosefunction.i"
 	@echo "... src/choosefunction.s"
+	@echo "... src/fav.o"
+	@echo "... src/fav.i"
+	@echo "... src/fav.s"
 	@echo "... src/fileparser.o"
 	@echo "... src/fileparser.i"
 	@echo "... src/fileparser.s"
@@ -483,9 +456,6 @@ help:
 	@echo "... src/parsepath.o"
 	@echo "... src/parsepath.i"
 	@echo "... src/parsepath.s"
-	@echo "... src/request.o"
-	@echo "... src/request.i"
-	@echo "... src/request.s"
 	@echo "... src/result.o"
 	@echo "... src/result.i"
 	@echo "... src/result.s"

@@ -81,33 +81,9 @@ CMakeFiles/tcp.dir/main.c.o.provides: CMakeFiles/tcp.dir/main.c.o.requires
 CMakeFiles/tcp.dir/main.c.o.provides.build: CMakeFiles/tcp.dir/main.c.o
 
 
-CMakeFiles/tcp.dir/src/request.c.o: CMakeFiles/tcp.dir/flags.make
-CMakeFiles/tcp.dir/src/request.c.o: ../src/request.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/illiashkurenko/progbase2/tasks/tcp_client/tcpserver/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building C object CMakeFiles/tcp.dir/src/request.c.o"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/tcp.dir/src/request.c.o   -c /Users/illiashkurenko/progbase2/tasks/tcp_client/tcpserver/src/request.c
-
-CMakeFiles/tcp.dir/src/request.c.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/tcp.dir/src/request.c.i"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/illiashkurenko/progbase2/tasks/tcp_client/tcpserver/src/request.c > CMakeFiles/tcp.dir/src/request.c.i
-
-CMakeFiles/tcp.dir/src/request.c.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/tcp.dir/src/request.c.s"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/illiashkurenko/progbase2/tasks/tcp_client/tcpserver/src/request.c -o CMakeFiles/tcp.dir/src/request.c.s
-
-CMakeFiles/tcp.dir/src/request.c.o.requires:
-
-.PHONY : CMakeFiles/tcp.dir/src/request.c.o.requires
-
-CMakeFiles/tcp.dir/src/request.c.o.provides: CMakeFiles/tcp.dir/src/request.c.o.requires
-	$(MAKE) -f CMakeFiles/tcp.dir/build.make CMakeFiles/tcp.dir/src/request.c.o.provides.build
-.PHONY : CMakeFiles/tcp.dir/src/request.c.o.provides
-
-CMakeFiles/tcp.dir/src/request.c.o.provides.build: CMakeFiles/tcp.dir/src/request.c.o
-
-
 CMakeFiles/tcp.dir/progbase/list.c.o: CMakeFiles/tcp.dir/flags.make
 CMakeFiles/tcp.dir/progbase/list.c.o: ../progbase/list.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/illiashkurenko/progbase2/tasks/tcp_client/tcpserver/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building C object CMakeFiles/tcp.dir/progbase/list.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/illiashkurenko/progbase2/tasks/tcp_client/tcpserver/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building C object CMakeFiles/tcp.dir/progbase/list.c.o"
 	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/tcp.dir/progbase/list.c.o   -c /Users/illiashkurenko/progbase2/tasks/tcp_client/tcpserver/progbase/list.c
 
 CMakeFiles/tcp.dir/progbase/list.c.i: cmake_force
@@ -131,7 +107,7 @@ CMakeFiles/tcp.dir/progbase/list.c.o.provides.build: CMakeFiles/tcp.dir/progbase
 
 CMakeFiles/tcp.dir/progbase/net.c.o: CMakeFiles/tcp.dir/flags.make
 CMakeFiles/tcp.dir/progbase/net.c.o: ../progbase/net.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/illiashkurenko/progbase2/tasks/tcp_client/tcpserver/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building C object CMakeFiles/tcp.dir/progbase/net.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/illiashkurenko/progbase2/tasks/tcp_client/tcpserver/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building C object CMakeFiles/tcp.dir/progbase/net.c.o"
 	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/tcp.dir/progbase/net.c.o   -c /Users/illiashkurenko/progbase2/tasks/tcp_client/tcpserver/progbase/net.c
 
 CMakeFiles/tcp.dir/progbase/net.c.i: cmake_force
@@ -153,33 +129,9 @@ CMakeFiles/tcp.dir/progbase/net.c.o.provides: CMakeFiles/tcp.dir/progbase/net.c.
 CMakeFiles/tcp.dir/progbase/net.c.o.provides.build: CMakeFiles/tcp.dir/progbase/net.c.o
 
 
-CMakeFiles/tcp.dir/handlers.c.o: CMakeFiles/tcp.dir/flags.make
-CMakeFiles/tcp.dir/handlers.c.o: ../handlers.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/illiashkurenko/progbase2/tasks/tcp_client/tcpserver/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building C object CMakeFiles/tcp.dir/handlers.c.o"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/tcp.dir/handlers.c.o   -c /Users/illiashkurenko/progbase2/tasks/tcp_client/tcpserver/handlers.c
-
-CMakeFiles/tcp.dir/handlers.c.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/tcp.dir/handlers.c.i"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/illiashkurenko/progbase2/tasks/tcp_client/tcpserver/handlers.c > CMakeFiles/tcp.dir/handlers.c.i
-
-CMakeFiles/tcp.dir/handlers.c.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/tcp.dir/handlers.c.s"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/illiashkurenko/progbase2/tasks/tcp_client/tcpserver/handlers.c -o CMakeFiles/tcp.dir/handlers.c.s
-
-CMakeFiles/tcp.dir/handlers.c.o.requires:
-
-.PHONY : CMakeFiles/tcp.dir/handlers.c.o.requires
-
-CMakeFiles/tcp.dir/handlers.c.o.provides: CMakeFiles/tcp.dir/handlers.c.o.requires
-	$(MAKE) -f CMakeFiles/tcp.dir/build.make CMakeFiles/tcp.dir/handlers.c.o.provides.build
-.PHONY : CMakeFiles/tcp.dir/handlers.c.o.provides
-
-CMakeFiles/tcp.dir/handlers.c.o.provides.build: CMakeFiles/tcp.dir/handlers.c.o
-
-
 CMakeFiles/tcp.dir/src/workwithstrings.c.o: CMakeFiles/tcp.dir/flags.make
 CMakeFiles/tcp.dir/src/workwithstrings.c.o: ../src/workwithstrings.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/illiashkurenko/progbase2/tasks/tcp_client/tcpserver/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Building C object CMakeFiles/tcp.dir/src/workwithstrings.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/illiashkurenko/progbase2/tasks/tcp_client/tcpserver/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building C object CMakeFiles/tcp.dir/src/workwithstrings.c.o"
 	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/tcp.dir/src/workwithstrings.c.o   -c /Users/illiashkurenko/progbase2/tasks/tcp_client/tcpserver/src/workwithstrings.c
 
 CMakeFiles/tcp.dir/src/workwithstrings.c.i: cmake_force
@@ -203,7 +155,7 @@ CMakeFiles/tcp.dir/src/workwithstrings.c.o.provides.build: CMakeFiles/tcp.dir/sr
 
 CMakeFiles/tcp.dir/src/parsepath.c.o: CMakeFiles/tcp.dir/flags.make
 CMakeFiles/tcp.dir/src/parsepath.c.o: ../src/parsepath.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/illiashkurenko/progbase2/tasks/tcp_client/tcpserver/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Building C object CMakeFiles/tcp.dir/src/parsepath.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/illiashkurenko/progbase2/tasks/tcp_client/tcpserver/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building C object CMakeFiles/tcp.dir/src/parsepath.c.o"
 	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/tcp.dir/src/parsepath.c.o   -c /Users/illiashkurenko/progbase2/tasks/tcp_client/tcpserver/src/parsepath.c
 
 CMakeFiles/tcp.dir/src/parsepath.c.i: cmake_force
@@ -227,7 +179,7 @@ CMakeFiles/tcp.dir/src/parsepath.c.o.provides.build: CMakeFiles/tcp.dir/src/pars
 
 CMakeFiles/tcp.dir/src/jsonparser.c.o: CMakeFiles/tcp.dir/flags.make
 CMakeFiles/tcp.dir/src/jsonparser.c.o: ../src/jsonparser.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/illiashkurenko/progbase2/tasks/tcp_client/tcpserver/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_8) "Building C object CMakeFiles/tcp.dir/src/jsonparser.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/illiashkurenko/progbase2/tasks/tcp_client/tcpserver/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Building C object CMakeFiles/tcp.dir/src/jsonparser.c.o"
 	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/tcp.dir/src/jsonparser.c.o   -c /Users/illiashkurenko/progbase2/tasks/tcp_client/tcpserver/src/jsonparser.c
 
 CMakeFiles/tcp.dir/src/jsonparser.c.i: cmake_force
@@ -251,7 +203,7 @@ CMakeFiles/tcp.dir/src/jsonparser.c.o.provides.build: CMakeFiles/tcp.dir/src/jso
 
 CMakeFiles/tcp.dir/src/fileparser.c.o: CMakeFiles/tcp.dir/flags.make
 CMakeFiles/tcp.dir/src/fileparser.c.o: ../src/fileparser.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/illiashkurenko/progbase2/tasks/tcp_client/tcpserver/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_9) "Building C object CMakeFiles/tcp.dir/src/fileparser.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/illiashkurenko/progbase2/tasks/tcp_client/tcpserver/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Building C object CMakeFiles/tcp.dir/src/fileparser.c.o"
 	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/tcp.dir/src/fileparser.c.o   -c /Users/illiashkurenko/progbase2/tasks/tcp_client/tcpserver/src/fileparser.c
 
 CMakeFiles/tcp.dir/src/fileparser.c.i: cmake_force
@@ -275,7 +227,7 @@ CMakeFiles/tcp.dir/src/fileparser.c.o.provides.build: CMakeFiles/tcp.dir/src/fil
 
 CMakeFiles/tcp.dir/src/findelements.c.o: CMakeFiles/tcp.dir/flags.make
 CMakeFiles/tcp.dir/src/findelements.c.o: ../src/findelements.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/illiashkurenko/progbase2/tasks/tcp_client/tcpserver/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_10) "Building C object CMakeFiles/tcp.dir/src/findelements.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/illiashkurenko/progbase2/tasks/tcp_client/tcpserver/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_8) "Building C object CMakeFiles/tcp.dir/src/findelements.c.o"
 	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/tcp.dir/src/findelements.c.o   -c /Users/illiashkurenko/progbase2/tasks/tcp_client/tcpserver/src/findelements.c
 
 CMakeFiles/tcp.dir/src/findelements.c.i: cmake_force
@@ -299,7 +251,7 @@ CMakeFiles/tcp.dir/src/findelements.c.o.provides.build: CMakeFiles/tcp.dir/src/f
 
 CMakeFiles/tcp.dir/src/result.c.o: CMakeFiles/tcp.dir/flags.make
 CMakeFiles/tcp.dir/src/result.c.o: ../src/result.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/illiashkurenko/progbase2/tasks/tcp_client/tcpserver/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_11) "Building C object CMakeFiles/tcp.dir/src/result.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/illiashkurenko/progbase2/tasks/tcp_client/tcpserver/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_9) "Building C object CMakeFiles/tcp.dir/src/result.c.o"
 	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/tcp.dir/src/result.c.o   -c /Users/illiashkurenko/progbase2/tasks/tcp_client/tcpserver/src/result.c
 
 CMakeFiles/tcp.dir/src/result.c.i: cmake_force
@@ -323,7 +275,7 @@ CMakeFiles/tcp.dir/src/result.c.o.provides.build: CMakeFiles/tcp.dir/src/result.
 
 CMakeFiles/tcp.dir/src/choosefunction.c.o: CMakeFiles/tcp.dir/flags.make
 CMakeFiles/tcp.dir/src/choosefunction.c.o: ../src/choosefunction.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/illiashkurenko/progbase2/tasks/tcp_client/tcpserver/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_12) "Building C object CMakeFiles/tcp.dir/src/choosefunction.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/illiashkurenko/progbase2/tasks/tcp_client/tcpserver/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_10) "Building C object CMakeFiles/tcp.dir/src/choosefunction.c.o"
 	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/tcp.dir/src/choosefunction.c.o   -c /Users/illiashkurenko/progbase2/tasks/tcp_client/tcpserver/src/choosefunction.c
 
 CMakeFiles/tcp.dir/src/choosefunction.c.i: cmake_force
@@ -345,29 +297,50 @@ CMakeFiles/tcp.dir/src/choosefunction.c.o.provides: CMakeFiles/tcp.dir/src/choos
 CMakeFiles/tcp.dir/src/choosefunction.c.o.provides.build: CMakeFiles/tcp.dir/src/choosefunction.c.o
 
 
+CMakeFiles/tcp.dir/src/fav.c.o: CMakeFiles/tcp.dir/flags.make
+CMakeFiles/tcp.dir/src/fav.c.o: ../src/fav.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/illiashkurenko/progbase2/tasks/tcp_client/tcpserver/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_11) "Building C object CMakeFiles/tcp.dir/src/fav.c.o"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/tcp.dir/src/fav.c.o   -c /Users/illiashkurenko/progbase2/tasks/tcp_client/tcpserver/src/fav.c
+
+CMakeFiles/tcp.dir/src/fav.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/tcp.dir/src/fav.c.i"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/illiashkurenko/progbase2/tasks/tcp_client/tcpserver/src/fav.c > CMakeFiles/tcp.dir/src/fav.c.i
+
+CMakeFiles/tcp.dir/src/fav.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/tcp.dir/src/fav.c.s"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/illiashkurenko/progbase2/tasks/tcp_client/tcpserver/src/fav.c -o CMakeFiles/tcp.dir/src/fav.c.s
+
+CMakeFiles/tcp.dir/src/fav.c.o.requires:
+
+.PHONY : CMakeFiles/tcp.dir/src/fav.c.o.requires
+
+CMakeFiles/tcp.dir/src/fav.c.o.provides: CMakeFiles/tcp.dir/src/fav.c.o.requires
+	$(MAKE) -f CMakeFiles/tcp.dir/build.make CMakeFiles/tcp.dir/src/fav.c.o.provides.build
+.PHONY : CMakeFiles/tcp.dir/src/fav.c.o.provides
+
+CMakeFiles/tcp.dir/src/fav.c.o.provides.build: CMakeFiles/tcp.dir/src/fav.c.o
+
+
 # Object files for target tcp
 tcp_OBJECTS = \
 "CMakeFiles/tcp.dir/main.c.o" \
-"CMakeFiles/tcp.dir/src/request.c.o" \
 "CMakeFiles/tcp.dir/progbase/list.c.o" \
 "CMakeFiles/tcp.dir/progbase/net.c.o" \
-"CMakeFiles/tcp.dir/handlers.c.o" \
 "CMakeFiles/tcp.dir/src/workwithstrings.c.o" \
 "CMakeFiles/tcp.dir/src/parsepath.c.o" \
 "CMakeFiles/tcp.dir/src/jsonparser.c.o" \
 "CMakeFiles/tcp.dir/src/fileparser.c.o" \
 "CMakeFiles/tcp.dir/src/findelements.c.o" \
 "CMakeFiles/tcp.dir/src/result.c.o" \
-"CMakeFiles/tcp.dir/src/choosefunction.c.o"
+"CMakeFiles/tcp.dir/src/choosefunction.c.o" \
+"CMakeFiles/tcp.dir/src/fav.c.o"
 
 # External object files for target tcp
 tcp_EXTERNAL_OBJECTS =
 
 tcp: CMakeFiles/tcp.dir/main.c.o
-tcp: CMakeFiles/tcp.dir/src/request.c.o
 tcp: CMakeFiles/tcp.dir/progbase/list.c.o
 tcp: CMakeFiles/tcp.dir/progbase/net.c.o
-tcp: CMakeFiles/tcp.dir/handlers.c.o
 tcp: CMakeFiles/tcp.dir/src/workwithstrings.c.o
 tcp: CMakeFiles/tcp.dir/src/parsepath.c.o
 tcp: CMakeFiles/tcp.dir/src/jsonparser.c.o
@@ -375,12 +348,13 @@ tcp: CMakeFiles/tcp.dir/src/fileparser.c.o
 tcp: CMakeFiles/tcp.dir/src/findelements.c.o
 tcp: CMakeFiles/tcp.dir/src/result.c.o
 tcp: CMakeFiles/tcp.dir/src/choosefunction.c.o
+tcp: CMakeFiles/tcp.dir/src/fav.c.o
 tcp: CMakeFiles/tcp.dir/build.make
 tcp: /usr/local/opt/jansson/lib/libjansson.dylib
 tcp: /usr/local/opt/jansson/lib/libjansson.dylib
 tcp: /usr/local/lib/liblablibrary.a
 tcp: CMakeFiles/tcp.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/Users/illiashkurenko/progbase2/tasks/tcp_client/tcpserver/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_13) "Linking C executable tcp"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/Users/illiashkurenko/progbase2/tasks/tcp_client/tcpserver/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_12) "Linking C executable tcp"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/tcp.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
@@ -389,10 +363,8 @@ CMakeFiles/tcp.dir/build: tcp
 .PHONY : CMakeFiles/tcp.dir/build
 
 CMakeFiles/tcp.dir/requires: CMakeFiles/tcp.dir/main.c.o.requires
-CMakeFiles/tcp.dir/requires: CMakeFiles/tcp.dir/src/request.c.o.requires
 CMakeFiles/tcp.dir/requires: CMakeFiles/tcp.dir/progbase/list.c.o.requires
 CMakeFiles/tcp.dir/requires: CMakeFiles/tcp.dir/progbase/net.c.o.requires
-CMakeFiles/tcp.dir/requires: CMakeFiles/tcp.dir/handlers.c.o.requires
 CMakeFiles/tcp.dir/requires: CMakeFiles/tcp.dir/src/workwithstrings.c.o.requires
 CMakeFiles/tcp.dir/requires: CMakeFiles/tcp.dir/src/parsepath.c.o.requires
 CMakeFiles/tcp.dir/requires: CMakeFiles/tcp.dir/src/jsonparser.c.o.requires
@@ -400,6 +372,7 @@ CMakeFiles/tcp.dir/requires: CMakeFiles/tcp.dir/src/fileparser.c.o.requires
 CMakeFiles/tcp.dir/requires: CMakeFiles/tcp.dir/src/findelements.c.o.requires
 CMakeFiles/tcp.dir/requires: CMakeFiles/tcp.dir/src/result.c.o.requires
 CMakeFiles/tcp.dir/requires: CMakeFiles/tcp.dir/src/choosefunction.c.o.requires
+CMakeFiles/tcp.dir/requires: CMakeFiles/tcp.dir/src/fav.c.o.requires
 
 .PHONY : CMakeFiles/tcp.dir/requires
 

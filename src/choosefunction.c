@@ -6,6 +6,7 @@
 #include <parsepath.h>
 #include <jsonparser.h>
 #include <fileparser.h>
+#include <fav.h>
 #include "choosefunction.h"
 void choose(List* list, Result*res, char* strToCopy, char * content, char* json){
     char * str = "HTTP/1.1 404 \n"
@@ -38,7 +39,8 @@ void choose(List* list, Result*res, char* strToCopy, char * content, char* json)
     } else if(function == SENDFILEDATA){
         getJsonWithDigits(json);
     }
-    if(function == NOTFOUND){
+    printf("%i\n",strlen(json));
+    if(function == NOTFOUND || strlen(json) == 21){
         strcpy(status,"HTTP/1.1 404 NOT FOUND");
     } else strcpy(status,"HTTP/1.1 200 OK");
     sprintf(content,"%s \n"
@@ -48,7 +50,7 @@ void choose(List* list, Result*res, char* strToCopy, char * content, char* json)
             "Content-Type: text \n"
             "Connection: Closed \n",status);
     strcat(content,json);
-    if(function == NOTFOUND){
+    if(function == NOTFOUND || strlen(json) == 21){
         strcpy(json,str);
     }
 }

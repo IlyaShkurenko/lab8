@@ -7,44 +7,36 @@
 #IncludeRegexTransform: 
 
 ../include/choosefunction.h
-list.h
--
 result.h
 -
+
+../include/fav.h
+../progbase/list.h
+../progbase/list.h
 
 ../include/fileparser.h
 
 ../include/findelements.h
 stdbool.h
 -
-convert.h
--
 parsepath.h
 ../include/parsepath.h
+fav.h
+../include/fav.h
 
 ../include/jsonparser.h
-list.h
--
-convert.h
--
 jansson.h
 -
 result.h
 ../include/result.h
+../progbase/list.h
+../progbase/list.h
 
 ../include/parsepath.h
 stdbool.h
 -
 result.h
 ../include/result.h
-
-../include/request.h
-stdbool.h
--
-../progbase/list.h
-../progbase/list.h
-../progbase/net.h
-../progbase/net.h
 
 ../include/result.h
 
@@ -55,22 +47,6 @@ stdlib.h
 -
 stdbool.h
 -
-
-../progbase/net.h
-stdbool.h
--
-netinet/in.h
--
-
-/Users/illiashkurenko/progbase2/tasks/tcp_client/tcpserver/handlers.c
-string.h
--
-stdio.h
--
-stdlib.h
--
-request.h
-/Users/illiashkurenko/progbase2/tasks/tcp_client/tcpserver/request.h
 
 /Users/illiashkurenko/progbase2/tasks/tcp_client/tcpserver/main.c
 stdlib.h
@@ -91,19 +67,19 @@ parsepath.h
 -
 jsonparser.h
 -
-convert.h
--
 fileparser.h
 -
 choosefunction.h
 -
 workwithstrings.h
 /Users/illiashkurenko/progbase2/tasks/tcp_client/tcpserver/workwithstrings.h
-request.h
-/Users/illiashkurenko/progbase2/tasks/tcp_client/tcpserver/request.h
 result.h
 /Users/illiashkurenko/progbase2/tasks/tcp_client/tcpserver/result.h
+progbase/net.h
+/Users/illiashkurenko/progbase2/tasks/tcp_client/tcpserver/progbase/net.h
 choosefunction.h
+-
+fav.h
 -
 
 /Users/illiashkurenko/progbase2/tasks/tcp_client/tcpserver/progbase/list.c
@@ -157,17 +133,27 @@ jsonparser.h
 -
 fileparser.h
 -
+fav.h
+-
 choosefunction.h
 /Users/illiashkurenko/progbase2/tasks/tcp_client/tcpserver/src/choosefunction.h
+
+/Users/illiashkurenko/progbase2/tasks/tcp_client/tcpserver/src/fav.c
+string.h
+-
+stdio.h
+-
+fav.h
+/Users/illiashkurenko/progbase2/tasks/tcp_client/tcpserver/src/fav.h
 
 /Users/illiashkurenko/progbase2/tasks/tcp_client/tcpserver/src/fileparser.c
 stdio.h
 -
-convert.h
--
 string.h
 -
 ctype.h
+-
+fav.h
 -
 fileparser.h
 /Users/illiashkurenko/progbase2/tasks/tcp_client/tcpserver/src/fileparser.h
@@ -176,6 +162,8 @@ jsonparser.h
 
 /Users/illiashkurenko/progbase2/tasks/tcp_client/tcpserver/src/findelements.c
 string.h
+-
+fav.h
 -
 findelements.h
 /Users/illiashkurenko/progbase2/tasks/tcp_client/tcpserver/src/findelements.h
@@ -191,14 +179,14 @@ time.h
 -
 stdio.h
 -
-convert.h
--
 jsonstorage.h
 -
 findelements.h
 /Users/illiashkurenko/progbase2/tasks/tcp_client/tcpserver/src/findelements.h
 workwithstrings.h
 /Users/illiashkurenko/progbase2/tasks/tcp_client/tcpserver/src/workwithstrings.h
+fav.h
+/Users/illiashkurenko/progbase2/tasks/tcp_client/tcpserver/src/fav.h
 
 /Users/illiashkurenko/progbase2/tasks/tcp_client/tcpserver/src/parsepath.c
 string.h
@@ -213,16 +201,6 @@ parsepath.h
 /Users/illiashkurenko/progbase2/tasks/tcp_client/tcpserver/src/parsepath.h
 workwithstrings.h
 /Users/illiashkurenko/progbase2/tasks/tcp_client/tcpserver/src/workwithstrings.h
-
-/Users/illiashkurenko/progbase2/tasks/tcp_client/tcpserver/src/request.c
-string.h
--
-ctype.h
--
-jansson.h
--
-request.h
-/Users/illiashkurenko/progbase2/tasks/tcp_client/tcpserver/src/request.h
 
 /Users/illiashkurenko/progbase2/tasks/tcp_client/tcpserver/src/result.c
 stdlib.h
@@ -244,21 +222,7 @@ parsepath.h
 jsonparser.h
 /Users/illiashkurenko/progbase2/tasks/tcp_client/tcpserver/src/jsonparser.h
 
-/usr/local/include/convert.h
-stdlib.h
--
-assert.h
--
-list.h
-/usr/local/include/list.h
-
 /usr/local/include/jsonstorage.h
-
-/usr/local/include/list.h
-stdlib.h
--
-stdbool.h
--
 
 /usr/local/opt/jansson/include/jansson.h
 stdio.h

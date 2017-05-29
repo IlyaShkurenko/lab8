@@ -3,11 +3,12 @@
 //
 
 #include <stdio.h>
-#include <convert.h>
 #include <string.h>
 #include <ctype.h>
+#include <fav.h>
 #include "fileparser.h"
 #include "jsonparser.h"
+
 void getInfoFromFile(char * str){
     char *content = (char *) malloc(BUF_SIZE * 100 * sizeof(char));
     getContentFromFile(content);

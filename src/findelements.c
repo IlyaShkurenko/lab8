@@ -3,6 +3,7 @@
 //
 
 #include <string.h>
+#include <fav.h>
 #include "findelements.h"
 #include "jsonparser.h"
 bool findElement(Composition *self, char * name, int find) {
