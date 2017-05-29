@@ -123,6 +123,8 @@ assert.h
 -
 net.h
 /Users/illiashkurenko/progbase2/tasks/tcp_client/tcpserver/progbase/net.h
+sys/types.h
+-
 
 /Users/illiashkurenko/progbase2/tasks/tcp_client/tcpserver/progbase/net.h
 stdbool.h

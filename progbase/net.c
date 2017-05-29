@@ -7,9 +7,8 @@
 #include <string.h>
 #include <assert.h>
 #include "net.h"
-#ifdef __APPLE__
 #include <sys/types.h>
-#endif
+
 
 static struct sockaddr_in __ip_init(in_addr_t address, int port) {
     struct sockaddr_in addr;

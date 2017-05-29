@@ -3,10 +3,6 @@
 #include <stdbool.h>
 #include <netinet/in.h>
 
-#ifdef __APPLE__
-#include <sys/types.h>
-#endif
-
 #ifdef __cplusplus
 extern "C" {
 #endif
