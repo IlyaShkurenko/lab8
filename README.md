@@ -1,3 +1,8 @@
+[![Travis-CI][travis-badge]][travis-builds]
+
+[travis-badge]: https://travis-ci.org/IlyaShkurenko/lab8.svg?branch=master
+[travis-builds]: https://travis-ci.org/IlyaShkurenko/lab8/builds
+
 # Завдання №1. Створення web-сервера
 
 ### 
