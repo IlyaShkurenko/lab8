@@ -23,6 +23,7 @@ set(CMAKE_C_TARGET_INCLUDE_PATH
   "../include"
   "../progbase"
   "/usr/local/opt/jansson/include"
+  "/usr/local/Cellar/libevent/2.1.8/include"
   )
 
 # Targets to which this target links.

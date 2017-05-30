@@ -32,8 +32,6 @@ cmake_force:
 
 .PHONY : cmake_force
 
-CFLAGS = -D_BSD_SOURCE
-
 #=============================================================================
 # Set environment variables for the build.
 

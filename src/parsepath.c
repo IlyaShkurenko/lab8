@@ -13,19 +13,19 @@ enum {
 };
 int returnFunctionFromPath(char *path, Result * res) {
     //check(path,res);
-    if (EqualsOfStr(path, "/favorites ")) {
+    if (EqualsOfStr(path, "/favorites")) {
         return SENDFAVOURITES;
 
-    } else if (EqualsOfStr(path, "/ ")) {
+    } else if (EqualsOfStr(path, "/")) {
         return SENDSERVERINFORM;
 
     } else if (check(path,res)) {
         return SENDFAVKEVAL;
 
-    } else if (EqualsOfStr(path, "/file ")) {
+    } else if (EqualsOfStr(path, "/file")) {
         return READFILE;
 
-    } else if (EqualsOfStr(path, "/file/data ")) {
+    } else if (EqualsOfStr(path, "/file/data")) {
         return SENDFILEDATA;
 
     } else return NOTFOUND;

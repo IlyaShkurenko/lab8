@@ -9,9 +9,7 @@
 #include <fav.h>
 #include "choosefunction.h"
 void choose(List* list, Result*res, char* strToCopy, char * content, char* json){
-    char * str = "HTTP/1.1 404 \n"
-            "Content-Length: 880000 \n"
-            "Content-Type: text/html \n"
+    char * str = "\n"
             "<!DOCTYPE HTML\n"
             "<html>\n"
             " <head>\n"
@@ -39,7 +37,6 @@ void choose(List* list, Result*res, char* strToCopy, char * content, char* json)
     } else if(function == SENDFILEDATA){
         getJsonWithDigits(json);
     }
-    printf("%i\n",strlen(json));
     if(function == NOTFOUND || strlen(json) == 21){
         strcpy(status,"HTTP/1.1 404 NOT FOUND");
     } else strcpy(status,"HTTP/1.1 200 OK");

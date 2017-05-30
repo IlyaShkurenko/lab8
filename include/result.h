@@ -22,4 +22,6 @@ typedef struct Result Result;
 */
 
 Result *Result_new(char *name, char *value);
+
+void Result_free(Result **selfPtr);
 #endif //TCP_RESULT_H

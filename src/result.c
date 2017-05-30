@@ -10,3 +10,8 @@ Result *Result_new(char *name, char *value) {
     strcpy(self->name, name);
     return self;
 }
+
+void Result_free(Result **selfPtr) {
+    free(*selfPtr);
+    *selfPtr = NULL;
+}

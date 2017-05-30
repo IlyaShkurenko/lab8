@@ -3,16 +3,29 @@
 
 CMakeFiles/tcp.dir/main.c.o: ../include/choosefunction.h
 CMakeFiles/tcp.dir/main.c.o: ../include/fav.h
-CMakeFiles/tcp.dir/main.c.o: ../include/fileparser.h
-CMakeFiles/tcp.dir/main.c.o: ../include/jsonparser.h
-CMakeFiles/tcp.dir/main.c.o: ../include/parsepath.h
 CMakeFiles/tcp.dir/main.c.o: ../include/result.h
-CMakeFiles/tcp.dir/main.c.o: ../include/workwithstrings.h
 CMakeFiles/tcp.dir/main.c.o: ../progbase/list.h
-CMakeFiles/tcp.dir/main.c.o: ../progbase/net.h
 CMakeFiles/tcp.dir/main.c.o: ../main.c
-CMakeFiles/tcp.dir/main.c.o: /usr/local/opt/jansson/include/jansson.h
-CMakeFiles/tcp.dir/main.c.o: /usr/local/opt/jansson/include/jansson_config.h
+CMakeFiles/tcp.dir/main.c.o: /usr/local/Cellar/libevent/2.1.8/include/event.h
+CMakeFiles/tcp.dir/main.c.o: /usr/local/Cellar/libevent/2.1.8/include/event2/buffer.h
+CMakeFiles/tcp.dir/main.c.o: /usr/local/Cellar/libevent/2.1.8/include/event2/buffer_compat.h
+CMakeFiles/tcp.dir/main.c.o: /usr/local/Cellar/libevent/2.1.8/include/event2/bufferevent.h
+CMakeFiles/tcp.dir/main.c.o: /usr/local/Cellar/libevent/2.1.8/include/event2/bufferevent_compat.h
+CMakeFiles/tcp.dir/main.c.o: /usr/local/Cellar/libevent/2.1.8/include/event2/bufferevent_struct.h
+CMakeFiles/tcp.dir/main.c.o: /usr/local/Cellar/libevent/2.1.8/include/event2/event-config.h
+CMakeFiles/tcp.dir/main.c.o: /usr/local/Cellar/libevent/2.1.8/include/event2/event.h
+CMakeFiles/tcp.dir/main.c.o: /usr/local/Cellar/libevent/2.1.8/include/event2/event_compat.h
+CMakeFiles/tcp.dir/main.c.o: /usr/local/Cellar/libevent/2.1.8/include/event2/event_struct.h
+CMakeFiles/tcp.dir/main.c.o: /usr/local/Cellar/libevent/2.1.8/include/event2/http.h
+CMakeFiles/tcp.dir/main.c.o: /usr/local/Cellar/libevent/2.1.8/include/event2/http_compat.h
+CMakeFiles/tcp.dir/main.c.o: /usr/local/Cellar/libevent/2.1.8/include/event2/http_struct.h
+CMakeFiles/tcp.dir/main.c.o: /usr/local/Cellar/libevent/2.1.8/include/event2/keyvalq_struct.h
+CMakeFiles/tcp.dir/main.c.o: /usr/local/Cellar/libevent/2.1.8/include/event2/tag.h
+CMakeFiles/tcp.dir/main.c.o: /usr/local/Cellar/libevent/2.1.8/include/event2/tag_compat.h
+CMakeFiles/tcp.dir/main.c.o: /usr/local/Cellar/libevent/2.1.8/include/event2/util.h
+CMakeFiles/tcp.dir/main.c.o: /usr/local/Cellar/libevent/2.1.8/include/event2/visibility.h
+CMakeFiles/tcp.dir/main.c.o: /usr/local/Cellar/libevent/2.1.8/include/evhttp.h
+CMakeFiles/tcp.dir/main.c.o: /usr/local/Cellar/libevent/2.1.8/include/evutil.h
 
 CMakeFiles/tcp.dir/progbase/list.c.o: ../progbase/list.c
 CMakeFiles/tcp.dir/progbase/list.c.o: ../progbase/list.h
